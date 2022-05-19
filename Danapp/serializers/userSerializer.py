@@ -1,7 +1,6 @@
-from os import access
+from rest_framework import serializers
 from Danapp.models.account import Account
 from Danapp.models.user import User
-from rest_framework import serializers
 from Danapp.serializers.accountSerializer import AccountSerializer
 
 class UserSerializer(serializers.ModelSerializer):
